@@ -23,6 +23,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Routindo.Plugins.Template.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Routindo.Plugins.Template.Tests", "Tests\Routindo.Plugins.Template.Tests\Routindo.Plugins.Template.Tests.csproj", "{8EA42F1A-A5A8-43DE-8BB8-8C62447FA97E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{37141586-7FDF-44B6-8256-A27F77686B5D}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\config.xml = Deployment\config.xml
+		Deployment\deploy.ps1 = Deployment\deploy.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +109,7 @@ Global
 		{DA3CCEDB-0140-4B92-81BB-0E8E8447D403} = {A9501731-1C62-4CB9-AD56-B4E5A8E0EEE3}
 		{C7D53F11-B27B-4C65-BB58-6674D0B946A7} = {A9501731-1C62-4CB9-AD56-B4E5A8E0EEE3}
 		{8EA42F1A-A5A8-43DE-8BB8-8C62447FA97E} = {133704FD-C648-4C2F-87DC-7DD4D76BEF27}
+		{37141586-7FDF-44B6-8256-A27F77686B5D} = {483CECEF-CE9F-4CD4-855A-ED4F0732CDC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EB98BFE-5E76-4F82-8770-A3BD6D2D4869}
